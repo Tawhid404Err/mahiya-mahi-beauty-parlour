@@ -56,10 +56,22 @@ body {
   align-items: center;
 }
 
-svg {
-  height: 35px;
-  fill: #ecf0f1;
-  margin-left: 5px;
+span {
+  display: flex;
+  height: max-content;
+  align-items: center;
+
+  svg {
+    height: 35px;
+    fill: #ecf0f1;
+    margin-left: 5px;
+  }
+}
+
+h2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 /* CSS hack using multiple box-shadows to get them **Stars** */
