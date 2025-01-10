@@ -9,7 +9,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font: normal 2.3rem "Port Lligat Slab", sans-serif, "system-ui";
+  font: normal 2.5rem "Port Lligat Slab", sans-serif, "system-ui";
   color: var(--action-color);
 }
 
