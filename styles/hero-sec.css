@@ -14,9 +14,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 10rem;
+  margin-left: 120px;
   height: 100%;
-  width: 500px;
+
+  h1,
+  p {
+    width: 500px;
+  }
 
   h1 {
     font-size: 70px;
@@ -31,6 +35,81 @@
     color: #fff;
     display: flex;
     gap: 0.5rem;
+  }
+}
+
+.service_finder {
+  margin-top: 1.5rem;
+  height: 88px;
+  width: 749px;
+  background-color: #fff;
+  border-radius: 60px;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .service_finder__input-box {
+    height: 100%;
+    width: 230px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:first-child {
+      margin-left: 1rem;
+    }
+
+    p {
+      font-weight: bold;
+      font-family: "Inter", sans-serif, system-ui;
+      color: var(--action-color);
+    }
+
+    span {
+      gap: unset;
+      justify-content: space-between;
+    }
+
+    input {
+      background-color: transparent;
+      border: none;
+      padding: 0.5rem 0;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .service_search {
+    height: 100%;
+    width: 180px;
+    background-color: var(--action-color);
+    border-radius: 56px;
+    display: flex;
+    justify-self: right;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif, system-ui;
+    font-size: 1.5rem;
+    gap: 1rem;
+    color: var(--white);
+    transition: 0.1s ease-in-out;
+
+    &:hover {
+      box-shadow: inset 0 0 40px #0000001f;
+    }
+
+    svg {
+      height: 1.5rem;
+      fill: #fff;
+    }
   }
 }
 
