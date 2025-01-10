@@ -1,0 +1,89 @@
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font: normal 2.3rem "Port Lligat Slab", sans-serif, "system-ui";
+  color: var(--action-color);
+}
+
+.links_box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  a {
+    color: var(--theme-dark);
+    vertical-align: center;
+    transition: 0.3s ease-in-out;
+    font-family: "Manrope", sans-serif, "system-ui";
+  }
+
+  a:first-child,
+  a:nth-child(2),
+  a:nth-child(3) {
+    position: relative;
+    overflow: hidden;
+    &::after {
+      transition: 0.3s ease-in-out;
+      content: "";
+      position: absolute;
+      left: -100%;
+      bottom: 0;
+      height: 2px;
+      width: 100%;
+      border-radius: 3rem;
+      background-color: var(--action-color);
+    }
+
+    &:hover::after {
+      left: 100%;
+    }
+  }
+
+  a:nth-child(4) {
+    display: flex;
+
+    svg {
+      height: 1.5rem;
+      margin-left: 5px;
+    }
+  }
+
+  a:has(button) {
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--theme-dark);
+
+    &:last-child {
+      background-color: var(--theme-dark);
+      color: var(--white);
+    }
+
+    &:last-child:hover {
+      background-color: transparent;
+      color: var(--theme-dark);
+    }
+  }
+
+  #login_btn_1:hover {
+    background-color: var(--theme-dark);
+    color: var(--white);
+
+    & ~ #login_btn_2 {
+      background-color: transparent;
+      color: var(--theme-dark);
+    }
+  }
+
+  &:has(#login_btn_2:hover) #login_btn_1 {
+    background-color: var(--theme-dark);
+    color: var(--white);
+  }
+}
