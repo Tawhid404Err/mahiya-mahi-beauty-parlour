@@ -1,0 +1,27 @@
+.service-overview {
+  height: 120px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.service-overview__item {
+  height: 90px;
+  aspect-ratio: 1/1;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--action-color);
+  margin-top: 5px;
+
+  p {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+}
