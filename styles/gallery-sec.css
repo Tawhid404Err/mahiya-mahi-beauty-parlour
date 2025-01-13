@@ -28,8 +28,23 @@
 }
 
 .gallery-box {
-  display: flex;
+  display: grid;
   width: 100%;
   height: 480px;
-  background-color: blue;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+}
+
+.gall-item {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+
+.gall-img1 {
+  grid-column: 1;
+  grid-row: 1 / 3;
 }
