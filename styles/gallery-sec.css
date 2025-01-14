@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   background-color: var(--section-color2);
-  padding: 3rem 5rem 2rem 5rem;
+  padding: 3rem 5rem;
 
   span {
     display: flex;

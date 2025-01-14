@@ -1,0 +1,151 @@
+.our-service-sec {
+  height: max-content;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  padding: 3rem 5rem;
+
+  span {
+    text-align: center;
+
+    h1 {
+      font-size: 45px;
+      color: var(--theme-color);
+      font-family: "Playfair Display", sans-serif, system-ui;
+      line-height: 4rem;
+    }
+
+    p {
+      font-family: "Manrope", sans-serif, system-ui;
+    }
+
+    p:first-child {
+      font-size: 0.95rem;
+      color: var(--action-color);
+      font-weight: bold;
+    }
+
+    p:last-child {
+      color: var(--context-color);
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.recommended-cards {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.recommended-cards__card {
+  height: 365px;
+  width: 275px;
+  overflow: hidden;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+}
+
+.recommended-cards__card--imgbox {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  padding: 0.8rem;
+}
+
+.recommended-cards__card--content {
+  flex: 1;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .service-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    span p {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    span p:last-child {
+      color: var(--action-color);
+      font-family: "Manrope", sans-serif, system-ui;
+      font-size: 1rem;
+    }
+
+    span p:first-child {
+      color: var(--action-color);
+      font-family: "Playfair Display", sans-serif, system-ui;
+      font-size: 1.1rem;
+    }
+  }
+
+  h3 {
+    display: flex;
+    justify-content: left;
+    font-family: "Playfair Display", sans-serif, system-ui;
+  }
+
+  a {
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: var(--action-color);
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif, system-ui;
+    color: var(--white);
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #ba7894;
+    }
+  }
+}
+
+.recommended-cards__card--location {
+  display: flex;
+  gap: 0.5rem;
+
+  img {
+    height: 1.5rem;
+  }
+  p {
+    color: var(--context-color);
+  }
+}
+
+.card-img1 {
+  background-image: url(https://www.shutterstock.com/image-photo/cosmetic-procedures-mask-skin-care-600nw-749324419.jpg);
+}
+
+.card-img2 {
+  background-image: url(https://www.jesvenues.com/images/services/bridal-makeup.jpg);
+}
+
+.card-img3 {
+  background-image: url(https://media.istockphoto.com/id/851007946/photo/woman-getting-hair-shampooed-at-salon.jpg?s=612x612&w=0&k=20&c=1kRvk2iAy6rBdfrfeAz7fhqPz8pvY_dgKmq_fHmjmLU=);
+}
+
+.card-img4 {
+  background-image: url(https://helibeauty.com/wp-content/uploads/2023/02/0-Header-2.jpg);
+}
