@@ -1,0 +1,121 @@
+.footer-wrapper {
+  width: 100%;
+  background-color: var(--theme-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 0 0 0;
+}
+
+.footer-container {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 3rem 0;
+}
+
+.footer-container__brand-name_social-link {
+  width: 100%;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ffffff38;
+
+  .footer-logo-name {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    font-family: "Manrope", sans-serif, system-ui;
+    color: var(--white);
+    img {
+      height: 50px;
+    }
+  }
+
+  .footer-social-link {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+
+    a {
+      height: 40px;
+      aspect-ratio: 1/1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid var(--white);
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        background-color: var(--action-color);
+      }
+
+      svg {
+        height: 25px;
+        fill: var(--white);
+      }
+    }
+  }
+}
+
+.footer-container__footer-link_address {
+  width: 100%;
+  margin-top: 1.5rem;
+  /* background-color: red; */
+  display: flex;
+  gap: 1rem;
+
+  .footer-link-address_box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    color: var(--white);
+
+    h2 {
+      font-family: "Playfair Display", sans-serif, system-ui;
+    }
+    span {
+      font-size: 1.1rem;
+      display: flex;
+
+      a {
+        padding-top: 0;
+        width: max-content;
+        font-weight: normal;
+      }
+
+      &:nth-child(2) a {
+        width: 230px;
+        margin-bottom: 1rem;
+      }
+    }
+
+    a {
+      width: max-content;
+      padding: 0.2rem 0;
+      color: var(--white);
+      font-size: 1.1rem;
+      font-family: "Manrope", sans-serif, system-ui;
+    }
+  }
+}
+
+.footer_copy-right {
+  width: 100%;
+  background-color: var(--theme-dark);
+  padding: 0.8rem 0;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  a {
+    font-weight: bold;
+    color: var(--action-color);
+  }
+}

@@ -89,5 +89,13 @@
     border-radius: 50px;
     border: none;
     padding: 0 1rem;
+    border: 1px solid var(--action-lite);
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+    color: var(--context-color);
+
+    &:hover {
+      background-color: var(--section-color2);
+    }
   }
 }
