@@ -8,9 +8,12 @@ nav {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font: normal 2.5rem "Port Lligat Slab", sans-serif, "system-ui";
+  font: normal 2.5rem "Dancing Script", sans-serif, "system-ui";
   color: var(--action-color);
+
+  img {
+    height: 4rem;
+  }
 }
 
 .links_box {
@@ -27,8 +30,10 @@ nav {
 
   a:first-child,
   a:nth-child(2),
-  a:nth-child(3) {
+  a:nth-child(3),
+  a:nth-child(4) {
     position: relative;
+    padding: 0.5rem 0;
     overflow: hidden;
     &::after {
       transition: 0.3s ease-in-out;
@@ -44,15 +49,6 @@ nav {
 
     &:hover::after {
       left: 100%;
-    }
-  }
-
-  a:nth-child(4) {
-    display: flex;
-
-    svg {
-      height: 1.5rem;
-      margin-left: 5px;
     }
   }
 
@@ -85,5 +81,12 @@ nav {
   &:has(#login_btn_2:hover) #login_btn_1 {
     background-color: var(--theme-dark);
     color: var(--white);
+  }
+}
+
+@media (max-width: 1200px) {
+  .logo {
+    font-size: 1.8rem;
+    width: max-content;
   }
 }
