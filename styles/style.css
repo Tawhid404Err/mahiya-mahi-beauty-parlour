@@ -64,6 +64,14 @@ button {
 
 a {
   text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 strong {
