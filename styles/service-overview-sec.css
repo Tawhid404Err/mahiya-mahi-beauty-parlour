@@ -1,16 +1,16 @@
 .service-overview {
-  height: 120px;
   width: 100%;
-  /* background-color: red; */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  gap: 0.5rem;
+  padding: 0.8rem 0;
 }
 
 .service-overview__item {
   height: 90px;
   aspect-ratio: 1/1;
-  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,5 +23,13 @@
     width: 100px;
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 730px) {
+  .service-overview {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
   }
 }

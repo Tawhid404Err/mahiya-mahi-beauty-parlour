@@ -8,7 +8,9 @@ nav {
 .logo {
   display: flex;
   align-items: center;
-  font: normal 2.5rem "Dancing Script", sans-serif, "system-ui";
+  font-family: "Dancing Script", sans-serif, "system-ui";
+  font-weight: normal;
+  font-size: 2.5rem;
   color: var(--action-color);
 
   img {
@@ -89,4 +91,7 @@ nav {
     font-size: 1.8rem;
     width: max-content;
   }
+}
+
+@media (max-width: 970px) {
 }
