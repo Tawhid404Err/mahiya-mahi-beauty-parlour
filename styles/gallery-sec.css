@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 1310px;
+    max-width: 1440px;
     margin: 0 auto;
   }
 
@@ -82,9 +82,5 @@
   .gall-img1 {
     grid-column: 1 / 3;
     grid-row: 1;
-  }
-
-  .gall-item:not(:first-child) {
-    object-fit: cover;
   }
 }
