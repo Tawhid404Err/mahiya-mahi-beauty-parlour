@@ -173,3 +173,16 @@
     width: 375px;
   }
 }
+
+@media (max-width: 330px) {
+  .our-service-sec {
+    span h1 {
+      font-size: 30px;
+    }
+  }
+
+  .gallery-wrapper {
+    h1 {
+      font-size: 30px;
+    }
+}
