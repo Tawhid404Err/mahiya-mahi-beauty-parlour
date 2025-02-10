@@ -5,6 +5,7 @@
   justify-content: right;
   background-color: var(--theme-color);
   position: relative;
+  overflow: hidden;
 }
 
 .hero_content {
