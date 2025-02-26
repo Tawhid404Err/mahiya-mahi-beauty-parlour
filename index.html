@@ -1,348 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mahiya Mahi Beauty Parlor | Best Beauty Salon In Munshiganj</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/modern-normalize.css" />
-    <link rel="stylesheet" href="styles/navbar.css" />
-    <link rel="stylesheet" href="styles/hero-sec.css" />
-    <link rel="stylesheet" href="styles/service-overview-sec.css" />
-    <link rel="stylesheet" href="styles/gallery-sec.css">
-    <link rel="stylesheet" href="styles/our-service-sec.css">
-    <link rel="stylesheet" href="styles/testimonials-sec.css">
-    <link rel="stylesheet" href="styles/newsletter-sec.css">
-    <link rel="stylesheet" href="styles/footer-sec.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahiya Mahi Beauty Parlor | Best Beauty Salon In Munshiganj</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/modern-normalize.css" />
+  <link rel="stylesheet" href="styles/navbar.css" />
+  <link rel="stylesheet" href="styles/hero-sec.css" />
+  <link rel="stylesheet" href="styles/service-overview-sec.css" />
+  <link rel="stylesheet" href="styles/gallery-sec.css">
+  <link rel="stylesheet" href="styles/our-service-sec.css">
+  <link rel="stylesheet" href="styles/testimonials-sec.css">
+  <link rel="stylesheet" href="styles/newsletter-sec.css">
+  <link rel="stylesheet" href="styles/footer-sec.css">
 
-  </head>
-  <body>
-    <nav class="container">
-      <a href="#" class="logo">
-        <img src="assets/logo.png" alt="" />
-        <p>Mahiya Mahi</p>
-      </a>
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
 
-      <div id="menu-icon-div">
-        <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>        
+</head>
+
+<body>
+  <nav class="container">
+    <a href="#" class="logo">
+      <img src="assets/logo.png" alt="" />
+      <p>Habi jabi</p>
+    </a>
+
+    <div id="menu-icon-div">
+      <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+    </div>
+
+    <div class="links_box" id="links_box">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Contact Us</a>
+
+
+      <a href="#" id="login_btn_1"><button>Login</button></a>
+      <a href="#" id="login_btn_2"><button>Signup</button></a>
+    </div>
+  </nav>
+
+  <section class="hero-sec">
+    <div class="hero_content">
+      <p>
+        <img src="assets/logo-2.png" alt="logo-svg" />
+        HAIR SALON, MASSEUSE, BEAUTY PARLOR
+      </p>
+      <h1>Find a service close to you</h1>
+      <p>
+        There are many variation of passages are Ipsum available, majority
+        have suffered alteration in some form.
+      </p>
+      <div class="service_finder">
+        <span>
+          <div class="service_finder__input-box service-autocomplete-container">
+            <p>Service Name</p>
+            <span>
+              <input id="searchInput" oninput="showSuggestions()" class="search-book-input" type="text"
+                placeholder="Book your services..." /><img src="assets/search.svg" alt="" />
+            </span>
+            <div id="suggestions" class="service-suggestions" style="display: none;"></div>
+          </div>
+          <div class="service_finder__input-box">
+            <p>Address</p>
+            <span>
+              <input type="" placeholder="Where" /><img src="assets/location.svg" alt="" />
+            </span>
+          </div>
+        </span>
+        <a href="#" class="service_search">
+          Search
+          <img src="assets/search2.svg" alt="search icon" />
+        </a>
       </div>
+    </div>
+    <div class="hero">
+      <img src="assets/hero-img.jpg" alt="Hero Image" />
+    </div>
+  </section>
 
-      <div class="links_box" id="links_box">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Services</a>
-        <a href="#">Contact Us</a>
-        
+  <section class="container service-overview">
+    <div class="service-overview__item">
+      <img src="assets/make-up.svg" alt="Make Up Icon">
+      <p>Makeup Artist</p>
+    </div>
 
-        <a href="#" id="login_btn_1"><button>Login</button></a>
-        <a href="#" id="login_btn_2"><button>Signup</button></a>
+    <div class="service-overview__item">
+      <img src="assets/fascia.svg" alt="Facial Care Icon">
+      <p>Facial Care</p>
+    </div>
+
+    <div class="service-overview__item">
+      <img src="assets/hair-cut.svg" alt="Beauty Salont Icon">
+      <p>Beauty Salont</p>
+    </div>
+
+    <div class="service-overview__item">
+      <img src="assets/rest.svg" alt="Wellness Center Icon">
+      <p>Wellness Center</p>
+    </div>
+
+    <div class="service-overview__item">
+      <img src="assets/massage-clinic.svg" alt="Massage Clinic Icon">
+      <p>Massage Clinic</p>
+    </div>
+
+    <div class="service-overview__item">
+      <img src="assets/foot-therapy.svg" alt="Foot Therapy Icon">
+      <p>Foot Therapy</p>
+    </div>
+  </section>
+
+  <saction class="container gallery-wrapper">
+    <div class="gallery-bg">
+      <span>
+        <h1>We are Experienced in making you very Beautiful</h1>
+        <p>Lorem ipsum dolor sit amet consectetur. Eu quis enim tempor et proin neque.</p>
+      </span>
+
+      <div class="gallery-box">
+        <img class="gall-img1 gall-item"
+          src="https://dfjx2uxqg3cgi.cloudfront.net/img/photo/171855/171855_00_2x.jpg?20190529040222"
+          alt="gallery image1">
+        <img class="gall-img2 gall-item" src="assets/gall-img2.jpg" alt="gallery image2">
+        <img class="gall-img3 gall-item" src="assets/gall-img3.jpg" alt="gallery image3">
+        <img class="gall-img4 gall-item" src="assets/gall-img4.jpg" alt="gallery image4">
+        <img class="gall-img5 gall-item" src="assets/gall-img5.jpg" alt="gallery image5">
       </div>
-    </nav>
+    </div>
+  </saction>
 
-    <section class="hero-sec">
-      <div class="hero_content">
-        <p>
-          <img src="assets/logo-2.png" alt="logo-svg" />
-          HAIR SALON, MASSEUSE, BEAUTY PARLOR
+  <div class="container our-service-sec">
+    <div class="our-service-sec-bg">
+      <span>
+        <p>OUR SERVICES</p>
+        <h1>Recommended</h1>
+        <p>Lorem ipsum dolor sit amet consectetur. Eu quis enim tempor et proin neque.</p>
+      </span>
+
+      <div class="recommended-cards">
+
+        <div class="recommended-cards__card">
+          <div class="recommended-cards__card--imgbox card-img1"></div>
+          <div class="recommended-cards__card--content">
+            <div class="service-review">
+              <span>
+                <img src="assets/star.svg" alt="Review Star Svg">
+                <p>4.5</p>
+              </span>
+              <span>
+                <p>104 reviews</p>
+              </span>
+            </div>
+            <h3>Organic Face Care</h3>
+            <div class="recommended-cards__card--location">
+              <img src="assets/location.svg" alt="">
+              <p>Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</p>
+            </div>
+
+            <a href="#">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="recommended-cards__card">
+          <div class="recommended-cards__card--imgbox card-img2"></div>
+          <div class="recommended-cards__card--content">
+            <div class="service-review">
+              <span>
+                <img src="assets/star.svg" alt="Review Star Svg">
+                <p>4.5</p>
+              </span>
+              <span>
+                <p>104 reviews</p>
+              </span>
+            </div>
+            <h3>Bridal Makeup</h3>
+            <div class="recommended-cards__card--location">
+              <img src="assets/location.svg" alt="">
+              <p>Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</p>
+            </div>
+
+            <a href="#">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="recommended-cards__card">
+          <div class="recommended-cards__card--imgbox card-img3"></div>
+          <div class="recommended-cards__card--content">
+            <div class="service-review">
+              <span>
+                <img src="assets/star.svg" alt="Review Star Svg">
+                <p>4.5</p>
+              </span>
+              <span>
+                <p>104 reviews</p>
+              </span>
+            </div>
+            <h3>Organic Hair Care</h3>
+            <div class="recommended-cards__card--location">
+              <img src="assets/location.svg" alt="">
+              <p>Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</p>
+            </div>
+
+            <a href="#">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="recommended-cards__card">
+          <div class="recommended-cards__card--imgbox card-img4"></div>
+          <div class="recommended-cards__card--content">
+            <div class="service-review">
+              <span>
+                <img src="assets/star.svg" alt="Review Star Svg">
+                <p>4.5</p>
+              </span>
+              <span>
+                <p>104 reviews</p>
+              </span>
+            </div>
+            <h3>Adaptive Makeup</h3>
+            <div class="recommended-cards__card--location">
+              <img src="assets/location.svg" alt="">
+              <p>Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</p>
+            </div>
+
+            <a href="#">BOOK NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container testimonials-wrapper">
+    <p>TESTIMONIALS</p>
+    <h1>What our Customer says...</h1>
+    <div class="testimonials-container">
+      <div class="testimonials-profile">
+        <img src="assets/Contents.svg" alt="">
+      </div>
+      <div class="testimonials-content">
+        <div class="testimonials-content__text-cnt">
+          <img src="assets/couts1.svg" alt="">
+          <img src="assets/couts2.svg" alt="">
+          <h2>Leslie Alexander</h2>
+          <p>Moncton, Canada</p>
+          <h1>Neque porro quisquam est qui dolum</h1>
+          <p>“ It is a long established fact that a reader will be tracked distracted by the readable content of a page
+            is when looking at its layout. The point of using Lorem of distribution it look like readable English “</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container newsletter-wrapper">
+    <div class="newsletter-container">
+      <div class="newsletter-container__picture-box">
+        <img src="/assets/subscribe-sec-img.jpg" alt="">
+      </div>
+      <div class="newsletter-container__content-box">
+        <h1>Subscribe to newsletter</h1>
+        <p>Sign up for our newsletter to stay up-to-date on the latest promotions, discounts, and new features releases.
         </p>
-        <h1>Find a service close to you</h1>
-        <p>
-          There are many variation of passages are Ipsum available, majority
-          have suffered alteration in some form.
-        </p>
-        <div class="service_finder">
+        <div class="subscribe-input-box">
           <span>
-            <div class="service_finder__input-box service-autocomplete-container">
-              <p>Service Name</p>
-              <span>
-                <input id="searchInput" oninput="showSuggestions()" class="search-book-input" type="text" placeholder="Book your services..." /><img
-                  src="assets/search.svg"
-                  alt=""
-                />
-              </span>
-              <div id="suggestions" class="service-suggestions" style="display: none;"></div>
-            </div>
-            <div class="service_finder__input-box">
-              <p>Address</p>
-              <span>
-                <input type="" placeholder="Where" /><img
-                  src="assets/location.svg"
-                  alt=""
-                />
-              </span>
-            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>
+
+            <input type="email" placeholder="Enter your mail" name="#" id="#">
           </span>
-          <a href="#" class="service_search">
-            Search
-            <img src="assets/search2.svg" alt="search icon" />
+
+          <input type="submit" class="subscribe-btn" value="Subscribe">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-wrapper">
+    <div class="footer-container">
+      <div class="footer-container__brand-name_social-link">
+        <a href="#" class="footer-logo-name">
+          <img src="/assets/logo-2.png" alt="">
+          MAHIYA MAHI BEAUTY PARLOR
+        </a>
+
+        <div class="footer-social-link">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+            </svg>
+          </a>
+
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+            </svg>
+          </a>
+
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+            </svg>
+          </a>
+
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
           </a>
         </div>
       </div>
-      <div class="hero">
-        <img src="assets/hero-img.jpg" alt="Hero Image" />
-      </div>
-    </section>
-
-    <section class="container service-overview">
-          <div class="service-overview__item">
-            <img src="assets/make-up.svg" alt="Make Up Icon">
-            <p>Makeup Artist</p>
-          </div>
-
-          <div class="service-overview__item">
-            <img src="assets/fascia.svg" alt="Facial Care Icon">
-            <p>Facial Care</p>
-          </div>
-
-          <div class="service-overview__item">
-            <img src="assets/hair-cut.svg" alt="Beauty Salont Icon">
-            <p>Beauty Salont</p>
-          </div>
-
-          <div class="service-overview__item">
-            <img src="assets/rest.svg" alt="Wellness Center Icon">
-            <p>Wellness Center</p>
-          </div>
-
-          <div class="service-overview__item">
-            <img src="assets/massage-clinic.svg" alt="Massage Clinic Icon">
-            <p>Massage Clinic</p>
-          </div>
-
-          <div class="service-overview__item">
-            <img src="assets/foot-therapy.svg" alt="Foot Therapy Icon">
-            <p>Foot Therapy</p>
-          </div>
-    </section>
-
-    <saction  class="container gallery-wrapper">
-    <div class="gallery-bg">
-        <span>
-          <h1>We are Experienced in making you very Beautiful</h1>
-          <p>Lorem ipsum dolor sit amet consectetur. Eu quis enim tempor et proin neque.</p>
-        </span>
-        
-        <div class="gallery-box">
-          <img class="gall-img1 gall-item" src="https://dfjx2uxqg3cgi.cloudfront.net/img/photo/171855/171855_00_2x.jpg?20190529040222" alt="gallery image1">
-          <img class="gall-img2 gall-item" src="assets/gall-img2.jpg" alt="gallery image2">
-          <img class="gall-img3 gall-item" src="assets/gall-img3.jpg" alt="gallery image3">
-          <img class="gall-img4 gall-item" src="assets/gall-img4.jpg" alt="gallery image4">
-          <img class="gall-img5 gall-item" src="assets/gall-img5.jpg" alt="gallery image5">
+      <div class="footer-container__footer-link_address">
+        <div class="footer-link-address_box">
+          <h2>Explore</h2>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Services</a>
+          <a href="#">Blog</a>
+          <a href="#">Contect Us</a>
         </div>
-    </div>
-    </saction>
 
-    <div class="container our-service-sec">
-        <div class="our-service-sec-bg">
-          <span>
-            <p>OUR SERVICES</p>
-            <h1>Recommended</h1>
-            <p>Lorem ipsum dolor sit amet consectetur. Eu quis enim tempor et proin neque.</p>
-          </span>
-
-          <div class="recommended-cards">
-
-            <div class="recommended-cards__card">
-              <div class="recommended-cards__card--imgbox card-img1"></div>
-              <div class="recommended-cards__card--content">
-                <div class="service-review">
-                  <span>
-                    <img src="assets/star.svg" alt="Review Star Svg"><p>4.5</p>
-                  </span>
-                  <span>
-                    <p>104 reviews</p>
-                  </span>
-                </div>
-                <h3>Organic Face Care</h3>
-                <div class="recommended-cards__card--location">
-                  <img src="assets/location.svg" alt="">
-                  <p>Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</p>
-                </div>
-
-                <a href="#">BOOK NOW</a>
-              </div>
-            </div>
-
-            <div class="recommended-cards__card">
-              <div class="recommended-cards__card--imgbox card-img2"></div>
-              <div class="recommended-cards__card--content">
-                <div class="service-review">
-                  <span>
-                    <img src="assets/star.svg" alt="Review Star Svg"><p>4.5</p>
-                  </span>
-                  <span>
-                    <p>104 reviews</p>
-                  </span>
-                </div>
-                <h3>Bridal Makeup</h3>
-                <div class="recommended-cards__card--location">
-                  <img src="assets/location.svg" alt="">
-                  <p>Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</p>
-                </div>
-
-                <a href="#">BOOK NOW</a>
-              </div>
-            </div>
-
-            <div class="recommended-cards__card">
-              <div class="recommended-cards__card--imgbox card-img3"></div>
-              <div class="recommended-cards__card--content">
-                <div class="service-review">
-                  <span>
-                    <img src="assets/star.svg" alt="Review Star Svg"><p>4.5</p>
-                  </span>
-                  <span>
-                    <p>104 reviews</p>
-                  </span>
-                </div>
-                <h3>Organic Hair Care</h3>
-                <div class="recommended-cards__card--location">
-                  <img src="assets/location.svg" alt="">
-                  <p>Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</p>
-                </div>
-
-                <a href="#">BOOK NOW</a>
-              </div>
-            </div>
-
-            <div class="recommended-cards__card">
-              <div class="recommended-cards__card--imgbox card-img4"></div>
-              <div class="recommended-cards__card--content">
-                <div class="service-review">
-                  <span>
-                    <img src="assets/star.svg" alt="Review Star Svg"><p>4.5</p>
-                  </span>
-                  <span>
-                    <p>104 reviews</p>
-                  </span>
-                </div>
-                <h3>Adaptive Makeup</h3>
-                <div class="recommended-cards__card--location">
-                  <img src="assets/location.svg" alt="">
-                  <p>Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</p>
-                </div>
-
-                <a href="#">BOOK NOW</a>
-              </div>
-            </div>
-          </div>
+        <div class="footer-link-address_box">
+          <h2>Utility Pages</h2>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
         </div>
-    </div>
 
-    <div class="container testimonials-wrapper">
-      <p>TESTIMONIALS</p>
-      <h1>What our Customer says...</h1>
-      <div class="testimonials-container">
-        <div class="testimonials-profile">
-          <img src="assets/Contents.svg" alt="">
-        </div>
-        <div class="testimonials-content">
-          <div class="testimonials-content__text-cnt">
-            <img src="assets/couts1.svg" alt="">
-            <img src="assets/couts2.svg" alt="">
-            <h2>Leslie Alexander</h2>
-            <p>Moncton, Canada</p>
-            <h1>Neque porro quisquam est qui dolum</h1>
-            <p>“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “</p>
-          </div>
+        <div class="footer-link-address_box">
+          <h2>Keep in Touch</h2>
+          <span>Address: &nbsp;<a href="#">Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</a></span>
+          <span>Mail: &nbsp;<a href="#">contact@mahiya-mahi.shop</a></span>
+          <span>Phone: &nbsp;<a href="#">01894290210</a></span>
+
         </div>
       </div>
     </div>
 
-    <div class="container newsletter-wrapper">
-        <div class="newsletter-container">
-          <div class="newsletter-container__picture-box">
-            <img src="/assets/subscribe-sec-img.jpg" alt="">
-          </div>
-          <div class="newsletter-container__content-box">
-            <h1>Subscribe to newsletter</h1>
-            <p>Sign up for our newsletter to stay up-to-date on the latest promotions, discounts, and new features releases.</p>
-            <div class="subscribe-input-box">
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                </svg>
-                
-                <input type="email" placeholder="Enter your mail" name="#" id="#">
-              </span>
-
-              <input type="submit" class="subscribe-btn" value="Subscribe">
-            </div>
-          </div>
-        </div>
+    <div class="footer_copy-right">
+      <p>©2025 Copyright: mahiya-mahi.shop<span>,</span></p>&nbsp;<p>Designed & Developed By&nbsp;<a
+          href="https://www.facebook.com/Tawhid404Err">Tawhid Islam</a></p>
     </div>
+  </div>
 
-    <div class="container footer-wrapper">
-        <div class="footer-container">
-          <div class="footer-container__brand-name_social-link">
-              <a href="#" class="footer-logo-name">
-                <img src="/assets/logo-2.png" alt="">
-                MAHIYA MAHI BEAUTY PARLOR
-              </a>
+  <script src="./scripts/service-dropdown.js"></script>
+  <script src="./scripts/menu.js"></script>
 
-              <div class="footer-social-link">
-                <a href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
-                </a>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-                <a href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>  
-                </a>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+  <script src="/scripts/lenis.js"></script>
+</body>
 
-                <a href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
-                </a>
-
-                <a href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
-                </a>
-              </div>
-          </div>
-          <div class="footer-container__footer-link_address">
-            <div class="footer-link-address_box">
-                <h2>Explore</h2>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Services</a>
-                <a href="#">Blog</a>
-                <a href="#">Contect Us</a>
-            </div>
-
-            <div class="footer-link-address_box">
-                <h2>Utility Pages</h2>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Use</a>
-            </div>
-
-            <div class="footer-link-address_box">
-              <h2>Keep in Touch</h2>
-              <span>Address: &nbsp;<a href="#">Bhaberchar Bazar, Gazaria, Munshiganj, Bangladesh.</a></span>
-              <span>Mail: &nbsp;<a href="#">contact@mahiya-mahi.shop</a></span>
-              <span>Phone: &nbsp;<a href="#">01894290210</a></span>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="footer_copy-right">
-          <p>©2025 Copyright: mahiya-mahi.shop<span>,</span></p>&nbsp;<p>Designed & Developed By&nbsp;<a href="https://www.facebook.com/Tawhid404Err">Tawhid Islam</a></p>
-      </div>
-    </div>
-
-    <script src="./scripts/service-dropdown.js"></script>
-    <script src="./scripts/menu.js"></script>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
-    <script src="/scripts/lenis.js"></script>
-  </body>
 </html>
